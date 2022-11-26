@@ -1,0 +1,108 @@
+body{
+    margin: 50px;
+    /*height: 100px;*/
+    background-color: aquamarine;
+}
+h1, h2{
+    font-size: 15px;
+	text-align: center;
+}
+h3{
+    font-size: 30px;
+	text-align: center;
+}
+.button {
+    margin-left: 115px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+textarea{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#textBody{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px; 
+}
+
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+
+.fa-youtube {
+    background: #3e8e41;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.fa-instagram {
+    background: #3e8e41;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.fa-youtube:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+  
+.fa-instagram:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
