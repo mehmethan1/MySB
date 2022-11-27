@@ -2,6 +2,18 @@
 <html>
 <head>
   <script>
+    
+    async function myWhile(){
+      //b textareasındaki değeri al
+      var x = document.getElementById("b").value;
+      
+      for(i = 0; i<=x; i++){
+        //0 dan b değerine kadar 1 er arttır myfunction ı çalıştır ve 200 sn bekle
+        myFunction();
+        await sleep(200);
+      }
+    }
+
     function sleep(ms){
       return new Promise(resolve => setTimeout(resolve,ms));
     }
@@ -11,18 +23,8 @@
         var y = document.getElementById("a").value;
         //y değerini textareaya yapışır
         document.getElementById("wpı").innerHTML = y;
-        console.log(i);
-    }
-
-    async function myWhile(){
-      //b textareasındaki değeri al
-      var x = document.getElementById("b").value;
-      
-      for(i = 0; i<=x; i++){
-        //0 dan b değerine kadar 1 er arttır myfunction ı çalıştır ve 200 sn bekle
-        myFunction();
-        await sleep(200);  
-      }
+        sleep(50);
+        console.log(i + "." + y);
     }
 
     </script>
